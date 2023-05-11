@@ -12,13 +12,14 @@ export const Button = styled.button`
         margin-top: 15px;
               cursor: pointer;
 
-        background-color: tomato;
+        background-color: blueviolet;
         border: 1px solid transparent;
         border-radius: 5px;
 
-        font-weight: 500;
+        font-weight: 600;
         font-size: 18px;
         text-transform: capitalize;
+        color: whitesmoke;
         /* transition: transform var(--transition), box-shadow var(--transition); */
 
         &:hover,

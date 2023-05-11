@@ -8,15 +8,15 @@ export const StatisticList = styled.div`
 
 export const StatisticText = styled.p`
     font-weight: 500;
-    color: blue;
+    color: black;
 `;
 
 export const StatisticValue = styled.span`
     font-weight: 400;
-    color: blue;
+    color: black;
 `;
 
 export const TotalStatistic = styled.p`
     font-weight: 500;
-    color: blue;
+    color: black;
 `;
