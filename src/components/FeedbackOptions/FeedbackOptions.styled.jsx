@@ -12,7 +12,7 @@ export const Button = styled.button`
         margin-top: 15px;
               cursor: pointer;
 
-        background-color: blueviolet;
+        background-color: #3155d5;
         border: 1px solid transparent;
         border-radius: 5px;
 
@@ -20,11 +20,16 @@ export const Button = styled.button`
         font-size: 18px;
         text-transform: capitalize;
         color: whitesmoke;
-        /* transition: transform var(--transition), box-shadow var(--transition); */
+        transition:
+  250ms cubic-bezier(0.4, 0, 0.2, 1),
+  box-shadow 0px 3px 1px rgba(0, 0, 0, 0.1),
+  box-shadow 0px 1px 2px rgba(0, 0, 0, 0.08),
+  box-shadow 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 
         &:hover,
         &:focus {
-        transform: scale(1.05);
+        transform: scale(1.1);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         }
 `
